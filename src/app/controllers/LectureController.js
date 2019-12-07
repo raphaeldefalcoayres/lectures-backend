@@ -23,7 +23,7 @@ class LectureController {
     };
 
     const getHour = minutes => {
-      return Math.round(minutes / 60);
+      return Math.floor(minutes / 60);
     };
 
     const getTimeInString = string => {
@@ -36,7 +36,6 @@ class LectureController {
       let trackId = 0;
 
       tracks[trackId] = { title: `Track ${trackId + 1}`, data: [] };
-
       data.forEach((item, index) => {
         if (index > 0) {
           time += getTimeInString(data[index - 1]);
@@ -47,7 +46,7 @@ class LectureController {
           tracks[trackId].data.push('12:00PM Lunch');
         }
 
-        if (getHour(time) >= end_hour) {
+        if (getHour(time) > end_hour - 1) {
           tracks[trackId].data.push('05:00PM Networking Event');
           trackId += 1;
           tracks[trackId] = { title: `Track ${trackId + 1}`, data: [] };
@@ -55,10 +54,14 @@ class LectureController {
         }
 
         tracks[trackId].data.push(`${formatTime(time)} ${item}`);
+
+        if (data.length === index + 1 && getHour(time) === end_hour - 1) {
+          tracks[trackId].data.push('05:00PM Networking Event');
+        }
       });
     }
 
-    return res.json(tracks);
+    return res.json({ data: tracks });
   }
 }
 
