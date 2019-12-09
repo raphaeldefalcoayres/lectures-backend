@@ -75,7 +75,7 @@ The documentation was made directly in the code and also in the postman. Access 
 
 Input:
 
-```
+```js
 {
  "data":[
 	"Writing Fast Tests Against Enterprise Rails 60min",
@@ -102,7 +102,7 @@ Input:
 ```
 Output:
 
-```
+```js
 {
   "data": [
     {
