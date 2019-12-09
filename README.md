@@ -56,7 +56,8 @@ Execute `yarn test` for testing api
 * [Jest](https://jestjs.io/) - Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 * [Supertest](http://visionmedia.github.io/superagent/) - Super-agent driven library for testing node.js HTTP servers using a fluent API.
 * [Factory Girl](https://github.com/simonexmachina/factory-girl#readme) - A factory library for node.js and the browser inspired by factory_girl.
-* [Faker](https://github.com/marak/Faker.js/) - generate massive amounts of realistic fake data in Node.js and the browser.
+* [Faker](https://github.com/marak/Faker.js/) - Generate massive amounts of realistic fake data in Node.js and the browser.
+* [Yup](https://github.com/jquense/yup) - Yup is a JavaScript object schema validator and object parser.
 
 ## License
 
