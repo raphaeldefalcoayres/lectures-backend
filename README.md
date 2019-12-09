@@ -71,7 +71,7 @@ Execute `yarn test` or `npm run test` for testing api
 
 ## Docs
 
-The documentation was made directly in the code and also in the postman. Access a documentation by url:https://documenter.getpostman.com/view/1391403/SWE6aHou?version=latest
+The documentation was made directly in the code and also in the postman. Access a documentation by URL: https://documenter.getpostman.com/view/1391403/SWE6aHou?version=latest
 
 ## Test Example
 
