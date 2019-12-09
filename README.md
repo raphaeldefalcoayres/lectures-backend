@@ -158,7 +158,7 @@ Output:
 
 ## Test Coverage
 
-![Image of coverage](https://github.com/raphaeldefalcoayres/lectures-backend/blob/master/.github/coverage-project.jpg)
+![Image of coverage](https://github.com/raphaeldefalcoayres/lectures-backend/blob/master/.github/coverage-project-v2.jpg)
 
 ## License
 
