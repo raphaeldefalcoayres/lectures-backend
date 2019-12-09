@@ -7,10 +7,12 @@ Node js API using express js to manage lectures
   <a href="#introduction">Introduction</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#overview">Overview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#installing">Installing&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp</a>
-  <a href="#test-example">Test Example&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp</a>
-  <a href="#built-with">Built With&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp</a>
-  <a href="#license">Licença</a>
+  <a href="#installing">Installing&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
+  <a href="#docs">Docs&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
+  <a href="#test-example">Test Example&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
+  <a href="#built-with">Built With&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
+  <a href="#test-coverage">Test Coverage&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
+  <a href="#license">License</a>
 </p>
 
 
@@ -64,6 +66,10 @@ Execute `yarn dev` or `npm run dev` for executing api
 ```
 Execute `yarn test` or `npm run test` for testing api
 ```
+
+## Docs
+
+The documentation was made directly in the code and also in the postman. Access a documentation by url:https://documenter.getpostman.com/view/1391403/SWE6aHou?version=latest
 
 ## Test Example
 
