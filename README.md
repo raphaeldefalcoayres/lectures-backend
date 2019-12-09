@@ -1,17 +1,19 @@
 # lectures-backend
 Node js API using express js to manage lectures
 
+>URL API deploy in Heroku: https://lectures-backend.herokuapp.com/
+
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/raphaeldefalcoayres/lectures-backend/blob/master/LICENSE)
 
 <p align="center">
   <a href="#introduction">Introduction</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#overview">Overview</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#getting-started">Getting Started</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#installing">Installing&nbsp;&nbsp;|&nbsp;&nbsp;</a>
-  <a href="#docs">Docs&nbsp;&nbsp;|&nbsp;&nbsp;</a>
-  <a href="#test-example">Test Example&nbsp;&nbsp;|&nbsp;&nbsp;</a>
-  <a href="#built-with">Built With&nbsp;&nbsp;|&nbsp;&nbsp;</a>
-  <a href="#test-coverage">Test Coverage&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+  <a href="#installing">Installing</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#docs">Docs</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#test-example">Test Example</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#built-with">Built With</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#test-coverage">Test Coverage</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#license">License</a>
 </p>
 
