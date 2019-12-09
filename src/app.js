@@ -3,13 +3,17 @@ import './bootstrap';
 import express from 'express';
 import cors from 'cors';
 import Youch from 'youch';
+import * as Sentry from '@sentry/node';
 import routes from './routes';
+import SentryConfig from './config/sentry';
 
 import './database';
 
 class App {
   constructor() {
     this.server = express();
+
+    Sentry.init(SentryConfig);
 
     this.middlewares();
     this.routes();
