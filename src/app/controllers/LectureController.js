@@ -1,4 +1,5 @@
 import moment from 'moment';
+import * as Yup from 'yup';
 
 class LectureController {
   async store(req, res) {
@@ -34,6 +35,22 @@ class LectureController {
       newTime = newTime[1].replace('lightning', 5);
       return parseInt(newTime, 10);
     };
+
+    // Validations check if have data and array have strings min 10 characters
+    const schema = Yup.object().shape({
+      data: Yup.array()
+        .of(
+          Yup.string()
+            .required()
+            .min(10)
+        )
+        .required(),
+    });
+
+    // return if validation error
+    if (!(await schema.isValid(req.body))) {
+      return res.status(400).json({ error: 'Validation fails' });
+    }
 
     // processes will only be executed if a valid date exists
     if (data) {
