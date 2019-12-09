@@ -4,14 +4,14 @@ Node js API using express js to manage lectures
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/raphaeldefalcoayres/lectures-backend/blob/master/LICENSE)
 
 <p align="center">
-  <a href="#introduction">Introduction</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#overview">Overview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#installing">Installing&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
-  <a href="#docs">Docs&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
-  <a href="#test-example">Test Example&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
-  <a href="#built-with">Built With&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
-  <a href="#test-coverage">Test Coverage&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
+  <a href="#introduction">Introduction</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#overview">Overview</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#getting-started">Getting Started</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#installing">Installing&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+  <a href="#docs">Docs&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+  <a href="#test-example">Test Example&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+  <a href="#built-with">Built With&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+  <a href="#test-coverage">Test Coverage&nbsp;&nbsp;|&nbsp;&nbsp;</a>
   <a href="#license">License</a>
 </p>
 
@@ -155,6 +155,10 @@ Output:
 * [Factory Girl](https://github.com/simonexmachina/factory-girl#readme) - A factory library for node.js and the browser inspired by factory_girl.
 * [Faker](https://github.com/marak/Faker.js/) - Generate massive amounts of realistic fake data in Node.js and the browser.
 * [Yup](https://github.com/jquense/yup) - Yup is a JavaScript object schema validator and object parser.
+
+## Test Coverage
+
+![Image of coverage](https://github.com/raphaeldefalcoayres/lectures-backend/blob/master/.github/coverage-project.jpg)
 
 ## License
 
