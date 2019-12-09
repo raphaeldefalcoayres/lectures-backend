@@ -157,6 +157,7 @@ Output:
 * [Factory Girl](https://github.com/simonexmachina/factory-girl#readme) - A factory library for node.js and the browser inspired by factory_girl.
 * [Faker](https://github.com/marak/Faker.js/) - Generate massive amounts of realistic fake data in Node.js and the browser.
 * [Yup](https://github.com/jquense/yup) - Yup is a JavaScript object schema validator and object parser.
+* [Sentry](https://sentry.io/) - Sentry is cross-platform application monitoring, with a focus on error reporting.
 
 ## Test Coverage
 
